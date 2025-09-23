@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pytesseract
+opencv-python
+Pillow
+pdfplumber
+xmltodict
+requests
+SQLAlchemy
+psycopg2-binary
+python-dotenv
