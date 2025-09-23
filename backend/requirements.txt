@@ -1,12 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-multipart
 pytesseract
-opencv-python
 Pillow
 pdfplumber
-xmltodict
-requests
-SQLAlchemy
-psycopg2-binary
-python-dotenv
+Unidecode
