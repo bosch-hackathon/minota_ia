@@ -1,0 +1,418 @@
+[
+  {
+    "json": {
+      "nfeProc": {
+        "$": {
+          "versao": "4.00",
+          "xmlns": "http://www.portalfiscal.inf.br/nfe"
+        },
+        "NFe": {
+          "$": {
+            "xmlns": "http://www.portalfiscal.inf.br/nfe"
+          },
+          "infNFe": {
+            "$": {
+              "Id": "NFe35250908736011000227550010013097891635030220",
+              "versao": "4.00"
+            },
+            "ide": {
+              "cUF": "35",
+              "cNF": "63503022",
+              "natOp": "VENDA MERC ADQ OU REC TERC",
+              "mod": "55",
+              "serie": "1",
+              "nNF": "1309789",
+              "dhEmi": "2025-09-12T15:27:58-03:00",
+              "dhSaiEnt": "2025-09-12T15:27:58-03:00",
+              "tpNF": "1",
+              "idDest": "1",
+              "cMunFG": "3550308",
+              "tpImp": "1",
+              "tpEmis": "1",
+              "cDV": "0",
+              "tpAmb": "1",
+              "finNFe": "1",
+              "indFinal": "1",
+              "indPres": "0",
+              "procEmi": "0",
+              "verProc": "4.34b204"
+            },
+            "emit": {
+              "CNPJ": "08736011000227",
+              "xNome": "GRAN COFFEE COM. LOC. E SERVICOS S.A.",
+              "xFant": "GRAN COFFEE SP",
+              "enderEmit": {
+                "xLgr": "RUA Major Paladino",
+                "nro": "128",
+                "xCpl": "GALPAO 4",
+                "xBairro": "VILA LEOPOLDINA",
+                "cMun": "3550308",
+                "xMun": "Sao Paulo",
+                "UF": "SP",
+                "CEP": "05307000",
+                "cPais": "1058",
+                "xPais": "Brasil",
+                "fone": "001935147500"
+              },
+              "IE": "147788096118",
+              "CRT": "3"
+            },
+            "dest": {
+              "CNPJ": "34163686000153",
+              "xNome": "SEK SECURITY ECOSYSTEM KNOWLEDGE S A",
+              "enderDest": {
+                "xLgr": "AV. Tambore",
+                "nro": "267",
+                "xCpl": "ANDAR 13 CONJ 131B SL 2 PT B TORRE NORTE",
+                "xBairro": "TAMBORE",
+                "cMun": "3505708",
+                "xMun": "BARUERI",
+                "UF": "SP",
+                "CEP": "06460000",
+                "cPais": "1058",
+                "xPais": "Brasil",
+                "fone": "551131983111"
+              },
+              "indIEDest": "9",
+              "IE": "154665961118",
+              "email": "faturamento@sek.io"
+            },
+            "det": [
+              {
+                "$": {
+                  "nItem": "1"
+                },
+                "prod": {
+                  "cProd": "515635",
+                  "cEAN": "SEM GTIN",
+                  "xProd": "CAPSULA PROFISSIONAL ASTRO SUPREMO 50 CAPS",
+                  "NCM": "09012100",
+                  "CEST": "1709604",
+                  "cBenef": "",
+                  "CFOP": "5102",
+                  "uCom": "CH",
+                  "qCom": "5",
+                  "vUnCom": "110",
+                  "vProd": "550.00",
+                  "cEANTrib": "SEM GTIN",
+                  "uTrib": "CH",
+                  "qTrib": "5",
+                  "vUnTrib": "110",
+                  "indTot": "1",
+                  "xPed": "3060756",
+                  "nItemPed": "2"
+                },
+                "imposto": {
+                  "ICMS": {
+                    "ICMS20": {
+                      "orig": "1",
+                      "CST": "20",
+                      "modBC": "3",
+                      "pRedBC": "61.1100",
+                      "vBC": "213.90",
+                      "pICMS": "18.00",
+                      "vICMS": "38.50"
+                    }
+                  },
+                  "PIS": {
+                    "PISNT": {
+                      "CST": "06"
+                    }
+                  },
+                  "COFINS": {
+                    "COFINSNT": {
+                      "CST": "06"
+                    }
+                  }
+                },
+                "infAdProd": "CAPSULA SUPREMO"
+              },
+              {
+                "$": {
+                  "nItem": "2"
+                },
+                "prod": {
+                  "cProd": "515636",
+                  "cEAN": "SEM GTIN",
+                  "xProd": "CAPSULA PROFISSIONAL ASTRO RISTRETTO 50 CAPS",
+                  "NCM": "09012100",
+                  "CEST": "1709604",
+                  "cBenef": "",
+                  "CFOP": "5102",
+                  "uCom": "CH",
+                  "qCom": "5",
+                  "vUnCom": "110",
+                  "vProd": "550.00",
+                  "cEANTrib": "SEM GTIN",
+                  "uTrib": "CH",
+                  "qTrib": "5",
+                  "vUnTrib": "110",
+                  "indTot": "1",
+                  "xPed": "3060756",
+                  "nItemPed": "4"
+                },
+                "imposto": {
+                  "ICMS": {
+                    "ICMS20": {
+                      "orig": "1",
+                      "CST": "20",
+                      "modBC": "3",
+                      "pRedBC": "61.1100",
+                      "vBC": "213.90",
+                      "pICMS": "18.00",
+                      "vICMS": "38.50"
+                    }
+                  },
+                  "PIS": {
+                    "PISNT": {
+                      "CST": "06"
+                    }
+                  },
+                  "COFINS": {
+                    "COFINSNT": {
+                      "CST": "06"
+                    }
+                  }
+                },
+                "infAdProd": "CAPSULA ASTRO RISTRETTO"
+              },
+              {
+                "$": {
+                  "nItem": "3"
+                },
+                "prod": {
+                  "cProd": "515637",
+                  "cEAN": "SEM GTIN",
+                  "xProd": "CAPSULA PROFISSIONAL ASTRO DESCAFEINADO 50 CAPS",
+                  "NCM": "09012200",
+                  "CEST": "1709605",
+                  "cBenef": "",
+                  "CFOP": "5102",
+                  "uCom": "CH",
+                  "qCom": "5",
+                  "vUnCom": "110",
+                  "vProd": "550.00",
+                  "cEANTrib": "SEM GTIN",
+                  "uTrib": "CH",
+                  "qTrib": "5",
+                  "vUnTrib": "110",
+                  "indTot": "1",
+                  "xPed": "3060756",
+                  "nItemPed": "1"
+                },
+                "imposto": {
+                  "ICMS": {
+                    "ICMS20": {
+                      "orig": "1",
+                      "CST": "20",
+                      "modBC": "3",
+                      "pRedBC": "61.1100",
+                      "vBC": "213.90",
+                      "pICMS": "18.00",
+                      "vICMS": "38.50"
+                    }
+                  },
+                  "PIS": {
+                    "PISNT": {
+                      "CST": "06"
+                    }
+                  },
+                  "COFINS": {
+                    "COFINSNT": {
+                      "CST": "06"
+                    }
+                  }
+                },
+                "infAdProd": "CAPSULA DESCAFEINADO"
+              },
+              {
+                "$": {
+                  "nItem": "4"
+                },
+                "prod": {
+                  "cProd": "515638",
+                  "cEAN": "SEM GTIN",
+                  "xProd": "CAPSULA PROFISSIONAL ASTRO EQUILIBRADO 50 CAPS",
+                  "NCM": "09012100",
+                  "CEST": "1709604",
+                  "cBenef": "",
+                  "CFOP": "5102",
+                  "uCom": "CH",
+                  "qCom": "5",
+                  "vUnCom": "110",
+                  "vProd": "550.00",
+                  "cEANTrib": "SEM GTIN",
+                  "uTrib": "CH",
+                  "qTrib": "5",
+                  "vUnTrib": "110",
+                  "indTot": "1",
+                  "xPed": "3060756",
+                  "nItemPed": "3"
+                },
+                "imposto": {
+                  "ICMS": {
+                    "ICMS20": {
+                      "orig": "1",
+                      "CST": "20",
+                      "modBC": "3",
+                      "pRedBC": "61.1100",
+                      "vBC": "213.90",
+                      "pICMS": "18.00",
+                      "vICMS": "38.50"
+                    }
+                  },
+                  "PIS": {
+                    "PISNT": {
+                      "CST": "06"
+                    }
+                  },
+                  "COFINS": {
+                    "COFINSNT": {
+                      "CST": "06"
+                    }
+                  }
+                },
+                "infAdProd": "CAPSULA EQUILIBRADO"
+              }
+            ],
+            "total": {
+              "ICMSTot": {
+                "vBC": "855.60",
+                "vICMS": "154.00",
+                "vICMSDeson": "0.00",
+                "vFCP": "0.00",
+                "vBCST": "0.00",
+                "vST": "0.00",
+                "vFCPST": "0.00",
+                "vFCPSTRet": "0.00",
+                "vProd": "2200.00",
+                "vFrete": "0.00",
+                "vSeg": "0.00",
+                "vDesc": "0.00",
+                "vII": "0.00",
+                "vIPI": "0.00",
+                "vIPIDevol": "0.00",
+                "vPIS": "0.00",
+                "vCOFINS": "0.00",
+                "vOutro": "0.00",
+                "vNF": "2200.00"
+              }
+            },
+            "transp": {
+              "modFrete": "0",
+              "transporta": {
+                "CNPJ": "08736011000227",
+                "xNome": "GRAN COFFEE COM LOCACAO E SERVICOS S.A",
+                "IE": "147788096118",
+                "xEnder": "RUA Major Paladino N. 128 GALPAO 4",
+                "xMun": "Sao Paulo",
+                "UF": "SP"
+              },
+              "vol": {
+                "qVol": "4",
+                "pesoL": "7.400",
+                "pesoB": "7.400"
+              }
+            },
+            "cobr": {
+              "fat": {
+                "nFat": "1309789",
+                "vOrig": "2200.00",
+                "vDesc": "0.00",
+                "vLiq": "2200.00"
+              },
+              "dup": {
+                "nDup": "001",
+                "dVenc": "2025-10-13",
+                "vDup": "2200.00"
+              }
+            },
+            "pag": {
+              "detPag": {
+                "indPag": "1",
+                "tPag": "15",
+                "vPag": "2200.00"
+              }
+            },
+            "infAdic": {
+              "infAdFisco": "CARGA TRIBUTARIA DE 7% DE ICMS CONFORME ARTIGO 3. INCISO III DO ANEXO II DO RICMS/SP",
+              "infCpl": "EM00000821023 - Ladjane.marques@sek.io | PIS e COFINS trib. a aliq. zero dos itens (515638,515636,515635,515637) conf. lei 12.839/2013 | Ped: 3060756 | ENTREGAR: AV. Tambore,267 ANDAR 13 CONJ 131B SL 2 PT B TORRE NORTE - TAMBORE, BARUERI - SP, 06460000"
+            },
+            "infRespTec": {
+              "CNPJ": "26314062000161",
+              "xContato": "Fabio Tulio Felippe",
+              "email": "marketing@sankhya.com.br",
+              "fone": "3432390700"
+            }
+          },
+          "Signature": {
+            "$": {
+              "xmlns": "http://www.w3.org/2000/09/xmldsig#"
+            },
+            "SignedInfo": {
+              "CanonicalizationMethod": {
+                "$": {
+                  "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                }
+              },
+              "SignatureMethod": {
+                "$": {
+                  "Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+                }
+              },
+              "Reference": {
+                "$": {
+                  "URI": "#NFe35250908736011000227550010013097891635030220"
+                },
+                "Transforms": {
+                  "Transform": [
+                    {
+                      "$": {
+                        "Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                      }
+                    },
+                    {
+                      "$": {
+                        "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                      }
+                    }
+                  ]
+                },
+                "DigestMethod": {
+                  "$": {
+                    "Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                  }
+                },
+                "DigestValue": "by6Y68ZLb9aj8y9RjlhTqiQaioY="
+              }
+            },
+            "SignatureValue": "j0dWtnkqLJqaPAK1e+uFExvg7A5OXt6axU5ccxLkTlH61WrTbXlB0yxEZJANGar1VLJpUt7isXRsmg4FYekrcDxjYPayYKVWHkPs19c5V3cNNbJle5Ye9ctGF0XTIYFd7mu5Kp2CbCjiRGbTiqaJ/2BXvAbCOSfJ//la+RFJlfec1RoAnFhjpFGnZQSijlxHstG6hdTwrhUaXvBA71HzIWIu1FmviyIG0oHpSqcD1yKk/9K6ANn5FaP6YVGRHb7BZxqUG5OyZEoxMRBfrYKq0K6fw75lTxPHEYi1oispONRmkW+VLYVd4dr2d4HnSY34fwgKEplhpS3MoTJWXjv/kA==",
+            "KeyInfo": {
+              "X509Data": {
+                "X509Certificate": "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"
+              }
+            }
+          }
+        },
+        "protNFe": {
+          "$": {
+            "versao": "4.00"
+          },
+          "infProt": {
+            "$": {
+              "Id": "Id135252682013748"
+            },
+            "tpAmb": "1",
+            "verAplic": "SP_NFE_PL009_V4",
+            "chNFe": "35250908736011000227550010013097891635030220",
+            "dhRecbto": "2025-09-12T15:28:01-03:00",
+            "nProt": "135252682013748",
+            "digVal": "by6Y68ZLb9aj8y9RjlhTqiQaioY=",
+            "cStat": "100",
+            "xMotivo": "Autorizado o uso da NF-e"
+          }
+        }
+      }
+    }
+  }
+]
