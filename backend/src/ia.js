@@ -12,7 +12,7 @@ const invoiceDataString = JSON.stringify(docZipInfos, null, 2);
 
 async function runAnalysis() {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     const prompt = `Você é um analista de compras. Analise os dados da nota fiscal em JSON a seguir e verifique se há itens restritos (como cigarro ou bebidas alcoólicas). Se houver, liste esses itens.\n\nDados da Nota Fiscal:\n${invoiceDataString}\n\nResposta:`;
 
