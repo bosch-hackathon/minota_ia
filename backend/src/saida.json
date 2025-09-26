@@ -12,299 +12,138 @@
           },
           "infNFe": {
             "$": {
-              "Id": "NFe35250908736011000227550010013097901840870898",
+              "Id": "NFe35250920799537000170550000004671621867064869",
               "versao": "4.00"
             },
             "ide": {
               "cUF": "35",
-              "cNF": "84087089",
-              "natOp": "VENDA MERC ADQ OU REC TERC",
+              "cNF": "86706486",
+              "natOp": "VENDA",
               "mod": "55",
-              "serie": "1",
-              "nNF": "1309790",
-              "dhEmi": "2025-09-12T15:27:58-03:00",
-              "dhSaiEnt": "2025-09-12T15:27:58-03:00",
+              "serie": "0",
+              "nNF": "467162",
+              "dhEmi": "2025-09-03T18:02:04-03:00",
               "tpNF": "1",
               "idDest": "1",
               "cMunFG": "3550308",
               "tpImp": "1",
               "tpEmis": "1",
-              "cDV": "8",
+              "cDV": "9",
               "tpAmb": "1",
               "finNFe": "1",
               "indFinal": "1",
-              "indPres": "0",
+              "indPres": "9",
+              "indIntermed": "0",
               "procEmi": "0",
-              "verProc": "4.34b204"
+              "verProc": "1.0.0"
             },
             "emit": {
-              "CNPJ": "08736011000227",
-              "xNome": "GRAN COFFEE COM. LOC. E SERVICOS S.A.",
-              "xFant": "GRAN COFFEE SP",
+              "CNPJ": "20799537000170",
+              "xNome": "CEFIS",
+              "xFant": "CEFIS",
               "enderEmit": {
-                "xLgr": "RUA Major Paladino",
-                "nro": "128",
-                "xCpl": "GALPAO 4",
-                "xBairro": "VILA LEOPOLDINA",
+                "xLgr": "Avenida Ordem e Progresso",
+                "nro": "157",
+                "xCpl": "N 157",
+                "xBairro": "Varzea da Barra Funda",
                 "cMun": "3550308",
                 "xMun": "Sao Paulo",
                 "UF": "SP",
-                "CEP": "05307000",
-                "cPais": "1058",
-                "xPais": "Brasil",
-                "fone": "001935147500"
+                "CEP": "01141030"
               },
-              "IE": "147788096118",
+              "IE": "134369249117",
+              "IM": "61518239",
               "CRT": "3"
             },
             "dest": {
               "CNPJ": "34163686000153",
-              "xNome": "SEK SECURITY ECOSYSTEM KNOWLEDGE S A",
+              "xNome": "SEK Security Ecosystem Knowledge",
               "enderDest": {
-                "xLgr": "AV. Tambore",
+                "xLgr": "Avenida Tambore",
                 "nro": "267",
-                "xCpl": "ANDAR 13 CONJ 131B SL 2 PT B TORRE NORTE",
-                "xBairro": "TAMBORE",
+                "xBairro": "Tambore",
                 "cMun": "3505708",
-                "xMun": "BARUERI",
+                "xMun": "Barueri",
                 "UF": "SP",
-                "CEP": "06460000",
-                "cPais": "1058",
-                "xPais": "Brasil",
-                "fone": "551131983111"
+                "CEP": "06460000"
               },
-              "indIEDest": "9",
-              "IE": "154665961118",
-              "email": "faturamento@sek.io"
+              "indIEDest": "1",
+              "IE": "154665961118"
             },
-            "det": [
-              {
-                "$": {
-                  "nItem": "1"
-                },
-                "prod": {
-                  "cProd": "55",
-                  "cEAN": "SEM GTIN",
-                  "xProd": "ACHOCOLATADO CAFE DO CENTRO 1KG",
-                  "NCM": "18069000",
-                  "cBenef": "",
-                  "CFOP": "5405",
-                  "uCom": "PT",
-                  "qCom": "5",
-                  "vUnCom": "69",
-                  "vProd": "345.00",
-                  "cEANTrib": "SEM GTIN",
-                  "uTrib": "PT",
-                  "qTrib": "5",
-                  "vUnTrib": "69",
-                  "indTot": "1",
-                  "xPed": "3060750",
-                  "nItemPed": "3"
-                },
-                "imposto": {
-                  "ICMS": {
-                    "ICMS60": {
-                      "orig": "0",
-                      "CST": "60",
-                      "vBCSTRet": "0.00",
-                      "pST": "0.0000",
-                      "vICMSSubstituto": "0.00",
-                      "vICMSSTRet": "0.00",
-                      "pRedBCEfet": "0.00",
-                      "vBCEfet": "345.00",
-                      "pICMSEfet": "18.00",
-                      "vICMSEfet": "62.10"
-                    }
-                  },
-                  "PIS": {
-                    "PISAliq": {
-                      "CST": "01",
-                      "vBC": "345.00",
-                      "pPIS": "1.6500",
-                      "vPIS": "5.69"
-                    }
-                  },
-                  "COFINS": {
-                    "COFINSAliq": {
-                      "CST": "01",
-                      "vBC": "345.00",
-                      "pCOFINS": "7.6000",
-                      "vCOFINS": "26.22"
-                    }
-                  }
-                }
+            "det": {
+              "$": {
+                "nItem": "1"
               },
-              {
-                "$": {
-                  "nItem": "2"
-                },
-                "prod": {
-                  "cProd": "1544",
-                  "cEAN": "SEM GTIN",
-                  "xProd": "LEITE PO INTEGRAL LA SERENISSIMA 400G",
-                  "NCM": "04022110",
-                  "CEST": "1701200",
-                  "cBenef": "",
-                  "CFOP": "5405",
-                  "uCom": "UN",
-                  "qCom": "6",
-                  "vUnCom": "29",
-                  "vProd": "174.00",
-                  "cEANTrib": "SEM GTIN",
-                  "uTrib": "UN",
-                  "qTrib": "6",
-                  "vUnTrib": "29",
-                  "indTot": "1",
-                  "xPed": "3060750",
-                  "nItemPed": "2",
-                  "nFCI": "89DF7585-6115-4202-895E-15DEC16B5F49"
-                },
-                "imposto": {
-                  "ICMS": {
-                    "ICMS60": {
-                      "orig": "3",
-                      "CST": "60",
-                      "vBCSTRet": "0.00",
-                      "pST": "0.0000",
-                      "vICMSSubstituto": "0.00",
-                      "vICMSSTRet": "0.00",
-                      "pRedBCEfet": "0.00",
-                      "vBCEfet": "0.00",
-                      "pICMSEfet": "0.00",
-                      "vICMSEfet": "0.00"
-                    }
-                  },
-                  "PIS": {
-                    "PISNT": {
-                      "CST": "06"
-                    }
-                  },
-                  "COFINS": {
-                    "COFINSNT": {
-                      "CST": "06"
-                    }
+              "prod": {
+                "cProd": "42",
+                "cEAN": "SEM GTIN",
+                "xProd": "Material Didático Ebook CEFIS ISBN 978-65-996851-2-5 Editora CEFIS",
+                "NCM": "49019900",
+                "CFOP": "5102",
+                "uCom": "UN",
+                "qCom": "1.0000",
+                "vUnCom": "97.7400000000",
+                "vProd": "97.74",
+                "cEANTrib": "SEM GTIN",
+                "uTrib": "UN",
+                "qTrib": "1.0000",
+                "vUnTrib": "97.7400000000",
+                "indTot": "1"
+              },
+              "imposto": {
+                "vTotTrib": "0.00",
+                "ICMS": {
+                  "ICMS40": {
+                    "orig": "0",
+                    "CST": "41"
                   }
                 },
-                "infAdProd": "LEITE PO INTEGRAL LA SERENISSIMA 400G"
-              },
-              {
-                "$": {
-                  "nItem": "3"
+                "PIS": {
+                  "PISNT": {
+                    "CST": "07"
+                  }
                 },
-                "prod": {
-                  "cProd": "514646",
-                  "cEAN": "SEM GTIN",
-                  "xProd": "CAFE CDC GC SUPERIOR GRAO 1KG",
-                  "NCM": "09012100",
-                  "CEST": "1709602",
-                  "cBenef": "",
-                  "CFOP": "5102",
-                  "uCom": "KG",
-                  "qCom": "3",
-                  "vUnCom": "93",
-                  "vProd": "279.00",
-                  "cEANTrib": "SEM GTIN",
-                  "uTrib": "KG",
-                  "qTrib": "3",
-                  "vUnTrib": "93",
-                  "indTot": "1",
-                  "xPed": "3060750",
-                  "nItemPed": "1"
-                },
-                "imposto": {
-                  "ICMS": {
-                    "ICMS20": {
-                      "orig": "0",
-                      "CST": "20",
-                      "modBC": "3",
-                      "pRedBC": "61.1100",
-                      "vBC": "108.50",
-                      "pICMS": "18.00",
-                      "vICMS": "19.53"
-                    }
-                  },
-                  "PIS": {
-                    "PISNT": {
-                      "CST": "06"
-                    }
-                  },
-                  "COFINS": {
-                    "COFINSNT": {
-                      "CST": "06"
-                    }
+                "COFINS": {
+                  "COFINSNT": {
+                    "CST": "07"
                   }
                 }
               }
-            ],
+            },
             "total": {
               "ICMSTot": {
-                "vBC": "108.50",
-                "vICMS": "19.53",
+                "vBC": "0.00",
+                "vICMS": "0.00",
                 "vICMSDeson": "0.00",
                 "vFCP": "0.00",
                 "vBCST": "0.00",
                 "vST": "0.00",
                 "vFCPST": "0.00",
                 "vFCPSTRet": "0.00",
-                "vProd": "798.00",
+                "vProd": "97.74",
                 "vFrete": "0.00",
                 "vSeg": "0.00",
                 "vDesc": "0.00",
                 "vII": "0.00",
                 "vIPI": "0.00",
                 "vIPIDevol": "0.00",
-                "vPIS": "5.69",
-                "vCOFINS": "26.22",
+                "vPIS": "0.00",
+                "vCOFINS": "0.00",
                 "vOutro": "0.00",
-                "vNF": "798.00"
+                "vNF": "97.74"
               }
             },
             "transp": {
-              "modFrete": "0",
-              "transporta": {
-                "CNPJ": "08736011000227",
-                "xNome": "GRAN COFFEE COM LOCACAO E SERVICOS S.A",
-                "IE": "147788096118",
-                "xEnder": "RUA Major Paladino N. 128 GALPAO 4",
-                "xMun": "Sao Paulo",
-                "UF": "SP"
-              },
-              "vol": {
-                "qVol": "14",
-                "pesoL": "10.400",
-                "pesoB": "10.400"
-              }
-            },
-            "cobr": {
-              "fat": {
-                "nFat": "1309790",
-                "vOrig": "798.00",
-                "vDesc": "0.00",
-                "vLiq": "798.00"
-              },
-              "dup": {
-                "nDup": "001",
-                "dVenc": "2025-10-13",
-                "vDup": "798.00"
-              }
+              "modFrete": "9"
             },
             "pag": {
               "detPag": {
-                "indPag": "1",
-                "tPag": "15",
-                "vPag": "798.00"
+                "indPag": "0",
+                "tPag": "03",
+                "vPag": "97.74"
               }
             },
-            "infAdic": {
-              "infAdFisco": "CARGA TRIBUTARIA DE 7% DE ICMS CONFORME ARTIGO 3. INCISO III DO ANEXO II DO RICMS/SP | ICMS RECOLHIDO POR SUBSTITUICAO TRIBUTARIA item 14 do Anexo XVI da Portaria CAT n. 68/2019",
-              "infCpl": "EM00000821023 - Ladjane.marques@sek.io | PIS e COFINS trib. a aliq. zero dos itens (514646,1544) conf. lei 12.839/2013 | Ped: 3060750 | ENTREGAR: AV. Tambore,267 ANDAR 13 CONJ 131B SL 2 PT B TORRE NORTE - TAMBORE, BARUERI - SP, 06460000"
-            },
-            "infRespTec": {
-              "CNPJ": "26314062000161",
-              "xContato": "Fabio Tulio Felippe",
-              "email": "marketing@sankhya.com.br",
-              "fone": "3432390700"
-            }
+            "infAdic": ""
           },
           "Signature": {
             "$": {
@@ -323,7 +162,7 @@
               },
               "Reference": {
                 "$": {
-                  "URI": "#NFe35250908736011000227550010013097901840870898"
+                  "URI": "#NFe35250920799537000170550000004671621867064869"
                 },
                 "Transforms": {
                   "Transform": [
@@ -344,13 +183,13 @@
                     "Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
                   }
                 },
-                "DigestValue": "iryrTKpzSeECWPMklLQ38iCF9Go="
+                "DigestValue": "OxFjq1LEesgbfDEmvaulbrF0Xs4="
               }
             },
-            "SignatureValue": "TMqowHI2lCrDZyMuQTG9HRkF+5fy9eECfNQgAEISHQyxesmfQQ0jtQoiSg83qea7kKirliYb5CAm2w/okZwpbnWoouILhdXFQac17bJEvOkJPXR/xHsdjd0mcqAGCMockxzLrUXYSryTP4Z162lN/ZIAcGB+ucHW9ZNjNF0d9kf90507IeYNApNjTfQW2z10nh/nHSjDuNhgc21pST74Gpceu3FjmqFPUA2tFR714XsAr91XjSvAKFdzeyIwWVSDd8MwNDFh2lR58BOYD66pfMn+S9CCYjUWfUFktMzpqIvpplyh+L+EvQkNI0yZq4PFKtvzpjgA9+5V/ZvwtOn0XQ==",
+            "SignatureValue": "aYfCdDKppPVNQnCD+F/njO3nhOKCOLfHPo7IIt4lYjLh/3FMgsaoO7OffNeBmIrfVcYfeBjG55hLo9FbP85fwbYx/+gYPu423bqlUClO5O0z/fwKoV/NwUCnDH5n57lLABJ730xVLxUXF7tlsdnIlJ2uhqjo4RPOqQzfxZddTfoGa4UTubVeidpZWIH/rcOi3wBaNj/K9BtCQ8cmP2gB0Qrv+VsrGbXrfdaNfoq/Q17llVj1ez6GWgR9eMtxAk7aoZGQsUOiX2YzSEHvV470NkDbG3vGfYlzbNNl45euNlqAE0sTmH1z7xffXyQsRbRkXvP+Csx2s92fOqeLqvVxnA==",
             "KeyInfo": {
               "X509Data": {
-                "X509Certificate": "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"
+                "X509Certificate": "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"
               }
             }
           }
@@ -361,14 +200,14 @@
           },
           "infProt": {
             "$": {
-              "Id": "Id135252682014739"
+              "Id": "Id135252563672400"
             },
             "tpAmb": "1",
             "verAplic": "SP_NFE_PL009_V4",
-            "chNFe": "35250908736011000227550010013097901840870898",
-            "dhRecbto": "2025-09-12T15:28:06-03:00",
-            "nProt": "135252682014739",
-            "digVal": "iryrTKpzSeECWPMklLQ38iCF9Go=",
+            "chNFe": "35250920799537000170550000004671621867064869",
+            "dhRecbto": "2025-09-03T18:02:04-03:00",
+            "nProt": "135252563672400",
+            "digVal": "OxFjq1LEesgbfDEmvaulbrF0Xs4=",
             "cStat": "100",
             "xMotivo": "Autorizado o uso da NF-e"
           }
