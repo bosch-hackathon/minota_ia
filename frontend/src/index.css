@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minota Design System - Sophisticated Blue Palette
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Main background - Light blue */
+    --background: 226 100% 97%;
+    --foreground: 217 64% 33%;
+
+    /* Cards and surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 217 64% 33%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 64% 33%;
+
+    /* Primary blues - main brand colors */
+    --primary: 217 64% 33%;
+    --primary-foreground: 0 0% 100%;
+    --primary-secondary: 220 84% 65%;
+
+    /* Secondary colors */
+    --secondary: 220 13% 91%;
+    --secondary-foreground: 217 64% 33%;
+
+    /* Muted colors */
+    --muted: 220 13% 91%;
+    --muted-foreground: 217 25% 45%;
+
+    /* Accent colors */
+    --accent: 220 84% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 84% 65%;
+
+    /* Modern radius */
+    --radius: 0.75rem;
+    
+    /* Custom gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217, 64%, 33%), hsl(220, 84%, 65%));
+    --gradient-subtle: linear-gradient(180deg, hsl(226, 100%, 97%), hsl(0, 0%, 100%));
+    
+    /* Shadows */
+    --shadow-elegant: 0 4px 20px -4px hsl(217, 64%, 33%, 0.15);
+    --shadow-button: 0 2px 8px -2px hsl(217, 64%, 33%, 0.2);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Keep light theme for Minota - sophisticated blue design works best in light mode */
+    --background: 226 100% 97%;
+    --foreground: 217 64% 33%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter antialiased;
+    background: var(--gradient-subtle);
+    min-height: 100vh;
+  }
+  
+  /* Smooth focus transitions */
+  input:focus,
+  textarea:focus {
+    transition: var(--transition-smooth);
+  }
+}

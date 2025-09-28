@@ -12,90 +12,99 @@
           },
           "infNFe": {
             "$": {
-              "Id": "NFe35250920799537000170550000004671621867064869",
-              "versao": "4.00"
+              "versao": "4.00",
+              "Id": "NFe35250929502289000129550000000090201458591973"
             },
             "ide": {
               "cUF": "35",
-              "cNF": "86706486",
-              "natOp": "VENDA",
+              "cNF": "45859197",
+              "natOp": "Venda de mercadorias",
               "mod": "55",
               "serie": "0",
-              "nNF": "467162",
-              "dhEmi": "2025-09-03T18:02:04-03:00",
+              "nNF": "9020",
+              "dhEmi": "2025-09-03T13:36:05-03:00",
+              "dhSaiEnt": "2025-09-03T13:36:05-03:00",
               "tpNF": "1",
               "idDest": "1",
-              "cMunFG": "3550308",
+              "cMunFG": "3518800",
               "tpImp": "1",
               "tpEmis": "1",
-              "cDV": "9",
+              "cDV": "3",
               "tpAmb": "1",
               "finNFe": "1",
               "indFinal": "1",
               "indPres": "9",
-              "indIntermed": "0",
+              "indIntermed": "1",
               "procEmi": "0",
-              "verProc": "1.0.0"
+              "verProc": "Bling 1.1"
             },
             "emit": {
-              "CNPJ": "20799537000170",
-              "xNome": "CEFIS",
-              "xFant": "CEFIS",
+              "CNPJ": "29502289000129",
+              "xNome": "LUIZ CARLOS SILVA 22362800849",
+              "xFant": "PURA MAGIA KIDS",
               "enderEmit": {
-                "xLgr": "Avenida Ordem e Progresso",
-                "nro": "157",
-                "xCpl": "N 157",
-                "xBairro": "Varzea da Barra Funda",
-                "cMun": "3550308",
-                "xMun": "Sao Paulo",
+                "xLgr": "Rua Sao Joao DAlianca",
+                "nro": "79",
+                "xBairro": "Vila Rosalia",
+                "cMun": "3518800",
+                "xMun": "Guarulhos",
                 "UF": "SP",
-                "CEP": "01141030"
+                "CEP": "07064130",
+                "cPais": "1058",
+                "xPais": "Brasil",
+                "fone": "11975517801"
               },
-              "IE": "134369249117",
-              "IM": "61518239",
-              "CRT": "3"
+              "IE": "796679576113",
+              "IM": "329738",
+              "CNAE": "4763601",
+              "CRT": "1"
             },
             "dest": {
               "CNPJ": "34163686000153",
-              "xNome": "SEK Security Ecosystem Knowledge",
+              "xNome": "CBS HOLDING SA",
               "enderDest": {
-                "xLgr": "Avenida Tambore",
+                "xLgr": "AVENIDA TAMBORE",
                 "nro": "267",
-                "xBairro": "Tambore",
+                "xCpl": "13 andar torre norte",
+                "xBairro": "TAMBORE",
                 "cMun": "3505708",
                 "xMun": "Barueri",
                 "UF": "SP",
-                "CEP": "06460000"
+                "CEP": "06460000",
+                "cPais": "1058",
+                "xPais": "Brasil"
               },
-              "indIEDest": "1",
-              "IE": "154665961118"
+              "indIEDest": "9",
+              "IE": "154665961118",
+              "email": "LU-1466970244431545@alias.integracommerce.com.br"
             },
             "det": {
               "$": {
                 "nItem": "1"
               },
               "prod": {
-                "cProd": "42",
+                "cProd": "6018KH",
                 "cEAN": "SEM GTIN",
-                "xProd": "Material Didático Ebook CEFIS ISBN 978-65-996851-2-5 Editora CEFIS",
-                "NCM": "49019900",
+                "xProd": "Jarra inox 1,8 Litros",
+                "NCM": "73239300",
                 "CFOP": "5102",
-                "uCom": "UN",
+                "uCom": "Un",
                 "qCom": "1.0000",
-                "vUnCom": "97.7400000000",
-                "vProd": "97.74",
+                "vUnCom": "65.000",
+                "vProd": "65.00",
                 "cEANTrib": "SEM GTIN",
-                "uTrib": "UN",
+                "uTrib": "Un",
                 "qTrib": "1.0000",
-                "vUnTrib": "97.7400000000",
-                "indTot": "1"
+                "vUnTrib": "65.000",
+                "vFrete": "11.78",
+                "indTot": "1",
+                "nItemPed": "1"
               },
               "imposto": {
-                "vTotTrib": "0.00",
                 "ICMS": {
-                  "ICMS40": {
+                  "ICMSSN102": {
                     "orig": "0",
-                    "CST": "41"
+                    "CSOSN": "400"
                   }
                 },
                 "PIS": {
@@ -120,8 +129,8 @@
                 "vST": "0.00",
                 "vFCPST": "0.00",
                 "vFCPSTRet": "0.00",
-                "vProd": "97.74",
-                "vFrete": "0.00",
+                "vProd": "65.00",
+                "vFrete": "11.78",
                 "vSeg": "0.00",
                 "vDesc": "0.00",
                 "vII": "0.00",
@@ -130,20 +139,36 @@
                 "vPIS": "0.00",
                 "vCOFINS": "0.00",
                 "vOutro": "0.00",
-                "vNF": "97.74"
+                "vNF": "76.78"
               }
             },
             "transp": {
-              "modFrete": "9"
+              "modFrete": "0",
+              "vol": {
+                "qVol": "1",
+                "pesoL": "0.000",
+                "pesoB": "0.000"
+              }
             },
             "pag": {
               "detPag": {
-                "indPag": "0",
-                "tPag": "03",
-                "vPag": "97.74"
+                "tPag": "90",
+                "vPag": "0.00"
               }
             },
-            "infAdic": ""
+            "infIntermed": {
+              "CNPJ": "47960950000121",
+              "idCadIntTran": "puramagiakids"
+            },
+            "infAdic": {
+              "infCpl": "Endereco de entrega: SEK SECURITY ECOSYSTEM KNOWLEDGE S A, AVENIDA TAMBORE, N 267, 13 andar torre norte, Bairro TAMBORE, BARUERI - SP, 06.460-000N Pedido Loja: LU-1466970244431545"
+            },
+            "infRespTec": {
+              "CNPJ": "02351877001124",
+              "xContato": "LWSA SA",
+              "email": "fiscal@bling.com.br",
+              "fone": "05430579470"
+            }
           },
           "Signature": {
             "$": {
@@ -162,7 +187,7 @@
               },
               "Reference": {
                 "$": {
-                  "URI": "#NFe35250920799537000170550000004671621867064869"
+                  "URI": "#NFe35250929502289000129550000000090201458591973"
                 },
                 "Transforms": {
                   "Transform": [
@@ -183,13 +208,13 @@
                     "Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
                   }
                 },
-                "DigestValue": "OxFjq1LEesgbfDEmvaulbrF0Xs4="
+                "DigestValue": "H7d+Ip9Fj3DeuYUT1zX67Eab0SI="
               }
             },
-            "SignatureValue": "aYfCdDKppPVNQnCD+F/njO3nhOKCOLfHPo7IIt4lYjLh/3FMgsaoO7OffNeBmIrfVcYfeBjG55hLo9FbP85fwbYx/+gYPu423bqlUClO5O0z/fwKoV/NwUCnDH5n57lLABJ730xVLxUXF7tlsdnIlJ2uhqjo4RPOqQzfxZddTfoGa4UTubVeidpZWIH/rcOi3wBaNj/K9BtCQ8cmP2gB0Qrv+VsrGbXrfdaNfoq/Q17llVj1ez6GWgR9eMtxAk7aoZGQsUOiX2YzSEHvV470NkDbG3vGfYlzbNNl45euNlqAE0sTmH1z7xffXyQsRbRkXvP+Csx2s92fOqeLqvVxnA==",
+            "SignatureValue": "ji0zfFb8SJ6fDgrSbME8WiRFEctCfPUD/g/xwhHbipySxTl/DCJqj7Y8n4LQsevY6K2JMCC98hzR89sRKaV1f1CAU8B/Q10oO5IuSZ+Cx1j5h4lyl+9H4TUmdlLBTAEIhmtbvNsERhfvTME6fpKRLiUvYKjwcH0HveYArCDH3BjoZSAGlAV66otLnlTbdqxkmUZNciuOSOv6CFnPrKrUs9tCBROGaUqSpsgAUcS29iYwcDk4Wr3RaHCm4Iv7p+UhhaSR2ZihbuUpKAHt7vzmBf+5dYM8EoI5Kr0MrOhQ3uhqqNaT3nITpjWPoCVLEx4xh8BMiOMbjk2VoCBZcDQ6AQ==",
             "KeyInfo": {
               "X509Data": {
-                "X509Certificate": "MIIHQzCCBSugAwIBAgIILh4kESFgzWwwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09MVVRJIE11bHRpcGxhIHY1MB4XDTI0MTEyMTIwMTQwMFoXDTI1MTEyMTIwMTQwMFowgekxCzAJBgNVBAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJHTzEQMA4GA1UEBxMHR29pYW5pYTEeMBwGA1UECxMVQUMgU09MVVRJIE11bHRpcGxhIHY1MRcwFQYDVQQLEw4yNDcwNTk1ODAwMDE0NjEZMBcGA1UECxMQVmlkZW9jb25mZXJlbmNpYTEaMBgGA1UECxMRQ2VydGlmaWNhZG8gUEogQTExNjA0BgNVBAMTLUNFTlRSTyBERSBFU1RVRE9TIEZJU0NBSVMgTFREQToyMDc5OTUzNzAwMDE3MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOTqEUDJd4cJ4xKpqcaCsYO3Wo2YKJehaV+PhKAtpkAGi9RmJyVypQkjdM1A2vAE0m1Om9eRT5Wx2pdoFxyNn89MYNFxwsW49CJV1SUh4FQ8EQ6oit6iyd9DsEGB0VmbpwKh31y5g16MNM8DZBu02xDREkOTL9MF2jdJuA1ltV6TvWYyAB3A8HFQv68FXKgjGCrZ4L21Ch5EuT27yRi5BNUGxh6k3LN0XqVhtS2iySr562ac4wmeXggcgGbkMkviuK3kCCPT75o8Rl/bh4rXZTybvYikU5t+Rjql3ozxHTBaqL5bpVtIUrWmoPQ8hz/IIWkr2R9Eil8l+NUmBJpQnOkCAwEAAaOCAnwwggJ4MAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUxVLtJYAJ35yCyJ9Hxt20XzHdubEwVAYIKwYBBQUHAQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LnA3YjCBtwYDVR0RBIGvMIGsgRVoZW5yaXF1ZUBjZWZpcy5jb20uYnKgJQYFYEwBAwKgHBMaSEVOUklRVUUgREEgUEFJWEFPIEFORFJBREWgGQYFYEwBAwOgEBMOMjA3OTk1MzcwMDAxNzCgOAYFYEwBAwSgLxMtMjQwOTE5ODcwMTcyMjgyMzE0MzAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwoBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDBdBgNVHSAEVjBUMFIGBmBMAQIBJjBIMEYGCCsGAQUFBwIBFjpodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9kb2NzL2RwYy1hYy1zb2x1dGktbXVsdGlwbGEucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBjAYDVR0fBIGEMIGBMD6gPKA6hjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LmNybDA/oD2gO4Y5aHR0cDovL2NjZDIuYWNzb2x1dGkuY29tLmJyL2xjci9hYy1zb2x1dGktbXVsdGlwbGEtdjUuY3JsMB0GA1UdDgQWBBRG86ajpgDM12kJooGHrkA/2c8xYjAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggIBAFQ84HNKgGLzcqsdRbLlAfkYF+1qegU0luwWDQtKlAOwO8eD6JgMXSvAWc+5fdknKbe/IxjGXRlYYGKQjyGbGO3SjK+3+9BIStpvffci3sVnFZQ+CO6ovz/aJm4qwc7u1AS6fOfiMWfXN7rZbko4+zS3dU0w2ILqQUPS5LnGXLLIz9DMrmjepZ3fHz3LriBQ81d4f6BgYBwML+rHU3/HKaPBa8e0EC3TaY1wYEcsZKoF00LuSGxDRSZzI75n5Db+SJeupsYtXBLtBS2ffP7j60RowFdf9rGk4ZyQZyObtvlpPiOgv7TeXuPs6rZNG0RuOpj2iVv40EGdX2Tl3Iy60DJnbKGXs6vHskUcYXjvIi8eot99wV9Q7XyAEChXvRrK8bROKnkEPsHX814ZdEEbshacMtHS9XhxGEQi5lXjJWh/H4LZc9R6gFY1gnnGGd5ryHfsyDSNqZt1PGFfoCRhGLlDgSnMaeDno2EEJ1UmZnX8/zZMRwpYkquudx9UE20jbmfBvUthTcNUZF8QgWasqXG/7ZbjX6dLxMTPtOJWACPg3MbHfQ1uPAtPS5UI6J6pfK2+oB5bcdERnPSm32qsGHMMmKGiEbV07jMSxGULMadVhV4ieD2nEiaZUCzcuta4QDecBVyfRNRwuNsp4UEgHzfmxWcvD9fp9Uv6EZX88Kvy"
+                "X509Certificate": "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"
               }
             }
           }
@@ -200,14 +225,14 @@
           },
           "infProt": {
             "$": {
-              "Id": "Id135252563672400"
+              "Id": "Id135252560192727"
             },
             "tpAmb": "1",
             "verAplic": "SP_NFE_PL009_V4",
-            "chNFe": "35250920799537000170550000004671621867064869",
-            "dhRecbto": "2025-09-03T18:02:04-03:00",
-            "nProt": "135252563672400",
-            "digVal": "OxFjq1LEesgbfDEmvaulbrF0Xs4=",
+            "chNFe": "35250929502289000129550000000090201458591973",
+            "dhRecbto": "2025-09-03T13:36:07-03:00",
+            "nProt": "135252560192727",
+            "digVal": "H7d+Ip9Fj3DeuYUT1zX67Eab0SI=",
             "cStat": "100",
             "xMotivo": "Autorizado o uso da NF-e"
           }
